@@ -35,7 +35,7 @@ const mostrarCompra = function (
     console.log(mensaje);
 };
 
-// Función principal con parámetro
+
 function iniciarSimulador(nombreTienda) {
     alert("¡Bienvenido a " + nombreTienda + "!");
 
@@ -72,7 +72,7 @@ function iniciarSimulador(nombreTienda) {
             continue;
         }
 
-        // Llamadas a las funciones
+       
         const subtotal = calcularSubtotal(cantidad, precio);
 
         const descuento = calcularDescuento(
