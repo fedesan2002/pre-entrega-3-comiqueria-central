@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comiquería Central - Pre-Entrega 3</title>
+
+    <script src="./js/main.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .main-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        .btn-action {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            background: #222;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="main-card">
+            <h1>Comiquería Central</h1>
+
+            <h2>Funciones</h2>
+
+            <p>Simulador de compras modularizado con funciones.</p>
+
+            <button
+                class="btn-action"
+                onclick="iniciarSimulador(NOMBRE_TIENDA)"
+            >
+                Iniciar compra
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Comiquería Central - Pre-Entrega 3</p>
+    </footer>
+</body>
+</html>
